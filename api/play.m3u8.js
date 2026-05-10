@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   if (!id && !proxyUrl) return res.status(400).send("Missing ID or URL");
 
   // 2. تحديد الهدف (إما رابط جديد أو رابط الأسطورة الأصلي)
-  const targetUrl = proxyUrl ? decodeURIComponent(proxyUrl) : `https://ostora.pages.dev/api/${id}.png`;
+  const targetUrl = proxyUrl ? decodeURIComponent(proxyUrl) : `https://v56.ostora-tv.com/api/${id}.png`;
 
   try {
     // 3. سحب البيانات والتخفي كمتصفح
