@@ -11,8 +11,8 @@ export default async function handler(req, res) {
     const fetchResponse = await fetch(targetUrl, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-        "Referer": "https://ostora.pages.dev/",
-        "Origin": "https://ostora.pages.dev"
+        "Referer": "https://v56.ostora-tv.com/",
+        "Origin": "https://v56.ostora-tv.com"
       }
     });
 
